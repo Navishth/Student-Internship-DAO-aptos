@@ -1,0 +1,15 @@
+[package]
+name = "Internship_DAO"
+version = "1.0.0"
+authors = []
+
+[addresses]
+StudentDAO="0x248d4e9f82592363d36e3771a0e7d345c8b7e593c3463b4690a2371c6072925f"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
